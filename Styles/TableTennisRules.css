@@ -1,0 +1,81 @@
+.header-sec {
+  background-color: lightblue;
+  display: flex;
+  margin: 10px auto;
+  position: sticky;
+  top: 80px;
+  width: 80%;
+  font-family: "Modern Sans", sans-serif;
+
+  justify-content: center;
+}
+
+.header-sec-container-main h1 {
+  padding: 20px 0px;
+  color: black;
+  font-size: 30px;
+  display: inline-block;
+}
+
+.header-sec-container {
+  background-color: lightgreen;
+  width: 70%;
+  margin: 0px auto;
+  position: relative;
+  z-index: -1;
+  top: 100px;
+}
+
+.header-sec-container-textp {
+  display: block;
+  color: black;
+  font-size: 20px;
+  line-height: 30px;
+  /* font-family: "Times New Roman", Times, serif; */
+  font-family: "Modern Sans", sans-serif;
+
+  padding: 20px 20px;
+}
+
+.header-sec-container-text-sub {
+  line-height: 30px;
+  /* font-family: "Times New Roman", Times, serif; */
+  font-family: "Modern Sans", sans-serif;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.header-sec-container ul li {
+  list-style: none;
+  line-height: 30px;
+  padding: 4px 50px;
+  font-size: 18px;
+}
+
+.header-sec-container-text-sub a {
+  color: lightcoral;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.header-sec-container-text-sub a:hover {
+  color: darkblue;
+}
+
+.button-cube {
+  visibility: hidden;
+}
+
+.button {
+  width: 1px;
+  height: 1px;
+  font-size: 1px;
+}
+
+.btn-btn {
+  width: 1px;
+  height: 1px;
+  font-size: 1px;
+  opacity: 0;
+}
